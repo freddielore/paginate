@@ -1,3 +1,3 @@
 <h1>Paginate.js</h1>
 
-<p>Paginate.js transforms an absurdly long, boring list into an organized group of items with letter pagination. Supported lists include unordered lists and lists nested/wrapped inside any elements including divs.</p>
+<p>Paginate.js transforms an absurdly long, boring list into an organized group of items with letter pagination. Supported lists include unordered lists and lists nested/wrapped inside any elements including divs. See <a href="projects.techtalkshq.com/paginate-js/">demos and examples</a>.</p>
