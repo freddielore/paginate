@@ -228,6 +228,5 @@
    <li>Workplace Relations </li>
    <li>Yoga Instructor </li>
   </ul>
-  </pre>
 </code>
 
