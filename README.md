@@ -4,9 +4,9 @@
 
 <h2>How it works</h2>
 
+
 <code>
-  <pre>
-    <ul class="categories">
+<ul class="categories">
   <li>Accommodation </li>
   <li>Accountant </li>
   <li>Administrator </li>
@@ -229,4 +229,3 @@
    <li>Yoga Instructor </li>
   </ul>
 </code>
-
