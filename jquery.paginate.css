@@ -1,0 +1,21 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.hide{ display: none; }
+.show{ display: block; }
+
+.tt-alpha-pager > a{
+    margin: 0 8px 0 0;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.tt-alpha-pager > a{ color: #222; }
+
+.tt-alpha-pager > a.active,
+.tt-alpha-pager > a:hover{
+    background: #222;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+}
