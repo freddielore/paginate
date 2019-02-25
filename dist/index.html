@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <title>Paginate.js - Paginate your list with letter</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <meta content="Paginate.js transforms an absurdly long, boring list into an organized group of items with letter pagination. Supported lists include unordered lists and lists nested/wrapped inside any elements including divs." data-page-subject="true" name="description" />
+
+        <style>
+            body {
+                /*padding-top: 50px;*/
+                padding-bottom: 20px;
+            }
+        </style>
+
+        <link rel="stylesheet" href="css/main.min.css">
+       
+    </head>
+    <body>
+    <div class="header" style="display: none;">
+        <div class="container"><p>{ Paginate.js }</p></div>
+    </div>
+    <a href="https://github.com/freddielore/paginate"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Paginate.js</h1>
+            <p>A jQuery plugin that transforms an absurdly long, boring list into an organized group of items with letter pagination. Supported lists include unordered lists and lists wrapped inside any HTML elements including divs.
+            <a href="#" id="demo">See the demo</a>.</p>
+            <p class="author css">Created with love by <a href="https://twitter.com/freddielore" target="_blank">@freddielore</a>.</p>
+        
+        </div><!-- end .container -->
+    </div><!-- end .jumbotron -->
+
+    <div class="container">
+
+        <h2>Options</h2>
+        <p><strong>disableEmpty</strong></p>
+        <p>If <code>true</code>, letters without contents won't be clickable.</p>
+        
+        <pre><code>default: <span class="value">true</span>
+options: <span class="value">true</span>, <span class="value">false</span></code></pre>
+        
+        <p><strong>errorMessage</strong></p>
+        <p>The message returned when no items found.</p>
+        
+        <pre><code>default: <span class="value">'No items found.'</span></code></pre>
+         
+        <h2>How it works</h2>
+
+        <p>Here is a simple Paginate.js setup:</p>
+
+        <div class="example-demo">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="active"><a href="#example-1" role="tab" data-toggle="tab">Example 1</a></li>
+              <li><a href="#example-2" role="tab" data-toggle="tab">Example 2</a></li>
+              <li><a href="#example-3" role="tab" data-toggle="tab">Example 3</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="example-1">
+                    <br />
+                    <strong>Step 1: Build the HTML markup</strong>
+                    <br />
+                    <br />
+                    <div style="max-height: 400px; overflow: auto;"><script src="https://pastebin.com/embed_js.php?i=VyrFcsjY"></script></div>
+                    <br />
+                    <br />
+                    
+                    <strong>Step 2: Include required files</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=uC3Kghnn"></script></div>
+                    <br />
+                    <br />
+
+                    <strong>Step 3: Call the paginate()</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=hqchv3kh"></script></div>
+                    <br />
+                    <br />
+
+                    <p id="paginate-demo">Your list should now be transformed with letter pagination.</p>
+
+                </div><!-- end #example-1 -->
+                <div class="tab-pane" id="example-2">
+                    <br />
+                    <strong>Step 1: Build the HTML markup</strong>
+                    <br />
+                    <br />
+                    <div style="max-height: 400px; overflow: auto;"><script src="https://pastebin.com/embed_js.php?i=m5E4zxmX"></script></div>
+                    <br />
+                    <br />
+                    
+                    <strong>Step 2: Include required files</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=uC3Kghnn"></script></div>
+                    <br />
+                    <br />
+
+                    <strong>Step 3: Call the paginate()</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=FgFG0m1X"></script></div>
+                    <br />
+                    <br />
+
+                    <p id="paginate-demo">Your list should now be transformed with letter pagination.</p>
+
+                </div><!-- end #example-2 -->
+              
+                <div class="tab-pane" id="example-3">
+                    <br />
+                    <strong>Step 1: Build the HTML markup</strong>
+                    <br />
+                    <br />
+                    <div style="max-height: 400px; overflow: auto;"><script src="https://pastebin.com/embed_js.php?i=kJdTVuS4"></script></div>
+                    <br />
+                    <br />
+                    
+                    <strong>Step 2: Include required files</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=uC3Kghnn"></script></div>
+                    <br />
+                    <br />
+
+                    <strong>Step 3: Call the paginate()</strong>
+                    <br />
+                    <br />
+                    <div><script src="https://pastebin.com/embed_js.php?i=AL3PX6k9"></script></div>
+                    <br />
+                    <br />
+
+                    <p id="paginate-demo">Your list should now be transformed with letter pagination.</p>
+                </div><!-- end #example-3 -->
+            </div><!-- end .tab-content -->
+
+        </div><!-- end .example-demo -->
+       
+        <!-- Example row of columns -->
+        <h2>Demo</h2>
+        <p><strong><a href="#" class="paginate-me">Hit me</a></strong> to paginate the list below:</p>
+        <br />
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list categories">
+                    
+                    <li>1 Accommodation </li>
+                    <li>2 Accountant </li>
+                    
+					<li>Accommodation </li>
+                    <li>Accountant </li>
+                    <li>Administrator </li>
+                    <li>Aerobics Instructor </li>
+                    <li>Alternative Medicine </li>
+					<li>Animal Communicator </li>
+                    <li>Animal Groomer/Trainer </li>
+                    <li>Architect </li>
+                    <li>Artist </li>
+                    <li>Auctioneer </li>
+                    <li>Audio Visual Technician </li>
+                    <li>Auditor </li>
+                    <li>Auto Mechanic </li>
+                    <li>Babysitter </li>
+                    <li>Baker </li>
+                    <li>Bar Staff </li>
+                    <li>Barber </li>
+                    <li>Barista </li>
+                    <li>Beautician </li>
+                    <li>Beauty Therapy </li>
+                    <li>Body Piercer </li>
+                    <li>Bookkeeping </li>
+                    <li>Branding/Marketing </li>
+                    <li>Builder </li>
+                    <li>Building Design </li>
+                    <li>Bus Hire </li>
+                    <li>Business Association </li>
+                    <li>Business Coach </li>
+                    <li>Business Consultant </li>
+                    <li>Business Management Consultant </li>
+                    <li>Business Mentor </li>
+                    <li>Business Training </li>
+                    <li>Butcher </li>
+                    <li>Cake Decorator </li>
+                    <li>Camera Operator </li>
+                    <li>Car Finance </li>
+                    <li>Car Sales (New/Used) </li>
+                    <li>Careers Advisor </li>
+                    <li>Carer </li>
+                    <li>Carpenter </li>
+                    <li>Carpet Cleaner </li>
+                    <li>Change Facilitator </li>
+                    <li>Chauffeur </li>
+                    <li>Chef </li>
+                    <li>Chemist </li>
+                    <li>Child Carer </li>
+                    <li>Child Minder </li>
+                    <li>Chiropractor </li>
+                    <li>Choreographer </li>
+                    <li>Civil Celebrant </li>
+                    <li>Cleaner </li>
+                    <li>Clothing </li>
+                    <li>Computer IT (Technician) </li>
+                    <li>Computer Retail </li>
+                    <li>Concierge  (P.A. / V.A.) </li>
+                    <li>Conflict Resolution </li>
+                    <li>Consultant </li>
+                    <li>Conveyancer </li>
+                    <li>Copywriter </li>
+                    <li>Counsellor </li>
+                    <li>Courier </li>
+                    <li>Credit Control </li>
+                    <li>Customer Service </li>
+                    <li>Dance Teacher </li>
+                    <li>Dentist </li>
+                    <li>Dietitian </li>
+                    <li>Digital Marketing </li>
+                    <li>DJ </li>
+                    <li>Doctor </li>
+                    <li>Dog Walker </li>
+                    <li>Dressmaker </li>
+                    <li>Driving Instructor </li>
+                    <li>Dry Cleaner </li>
+                    <li>Electrician </li>
+                    <li>Employment Facilitation </li>
+                    <li>Engineer </li>
+                    <li>Event Manager </li>
+                    <li>Facebook Marketing </li>
+                    <li>Fashion Jewellery </li>
+                    <li>Feng Shui </li>
+                    <li>Fertility Specialist </li>
+                    <li>Finance Broker – Commercial </li>
+                    <li>Finance Broker – Residential </li>
+                    <li>Financial Advisor/Planner </li>
+                    <li>First Aid Training </li>
+                    <li>Flooring Specialist </li>
+                    <li>Florist </li>
+                    <li>Function Organiser </li>
+                    <li>Function Venue </li>
+                    <li>Funeral Director </li>
+                    <li>Furniture Restoration </li>
+                    <li>Gardener </li>
+                    <li>Gate & Steel Engineer </li>
+                    <li>Gift Baskets/Hampers </li>
+                    <li>Graphic Designer </li>
+                    <li>Gym Instructor </li>
+                    <li>Gynecologist </li>
+                    <li>Hairdresser </li>
+                    <li>Handyman </li>
+                    <li>Health & Nutrition </li>
+                    <li>Health Coach </li>
+                    <li>Home / Office Organiser </li>
+                    <li>Homewares – Furniture </li>
+                    <li>Homewares – Electrical </li>
+                    <li>Horse Riding Instructor </li>
+                    <li>House Keeper </li>
+                    <li>Human Relations </li>
+                    <li>Image Consultant </li>
+                    <li>Insurance – General </li>
+                    <li>Insurance – Life </li>
+                    <li>Intellectual Property </li>
+                    <li>Interior Designer </li>
+                    <li>Journalist </li>
+                    <li>Landscape Designer </li>
+                    <li>Language Teacher </li>
+                    <li>Lawyer </li>
+                    <li>Legal Documentation </li>
+                    <li>Legal Secretary </li>
+                    <li>Life Coach </li>
+                    <li>Lighting </li>
+                    <li>Locksmith </li>
+                    <li>Magician </li>
+                    <li>Make Up Artist </li>
+                    <li>Marketing </li>
+                    <li>Martial Arts Instructor </li>
+                    <li>Masseuse </li>
+                    <li>Mechanic </li>
+                    <li>Medical Technology </li>
+                    <li>Migration Agent </li>
+                    <li>MLM Agent </li>
+                    <li>Music Teacher </li>
+                    <li>Musician </li>
+                    <li>Naturopath </li>
+                    <li>Networking </li>
+                    <li>Not for Profit Health Care </li>
+                    <li>Nursing </li>
+                    <li>Occupational Therapist </li>
+                    <li>Office Furniture/Fit Out </li>
+                    <li>Office Products – Machines </li>
+                    <li>Office Products – Stationery </li>
+                    <li>On Line Marketing </li>
+                    <li>Optician </li>
+                    <li>Orthodontist </li>
+                    <li>Outdoor Patios/Sheds </li>
+                    <li>Painter / Decorator </li>
+                    <li>Parenting and Relationship Profiling </li>
+                    <li>Party Hire / Functions </li>
+                    <li>Pediatrician </li>
+                    <li>Pension Transfers </li>
+                    <li>Personal Concierge </li>
+                    <li>Personal Development </li>
+                    <li>Personal Trainer </li>
+                    <li>Pest Control </li>
+                    <li>Photographer </li>
+                    <li>Physical Therapist </li>
+                    <li>Physiotherapist </li>
+                    <li>Plasterer </li>
+                    <li>Plumber </li>
+                    <li>Printer / Print Broker </li>
+                    <li>Promotional Products </li>
+                    <li>Property Maintenance </li>
+                    <li>Property Management </li>
+                    <li>Psychologist </li>
+                    <li>Psychotherapist </li>
+                    <li>Radio Presenter </li>
+                    <li>Real Estate Agent  –  Buyer’s Agent </li>
+                    <li>Real Estate Agent  –  Commercial </li>
+                    <li>Real Estate Agent  –  Residential </li>
+                    <li>Receptionist </li>
+                    <li>Recruitment </li>
+                    <li>Retail </li>
+                    <li>Retreat/Day Spa </li>
+                    <li>Roofer </li>
+                    <li>Sales Representative </li>
+                    <li>Secretary </li>
+                    <li>Security </li>
+                    <li>SEO </li>
+                    <li>Sewing Teacher </li>
+                    <li>Sign Writer / Signage </li>
+                    <li>Singer </li>
+                    <li>Skin Care Specialist </li>
+                    <li>Social Media </li>
+                    <li>Solicitor </li>
+                    <li>Sound Engineer </li>
+                    <li>Sports Coaches </li>
+                    <li>Staff Training </li>
+                    <li>Stockbroker </li>
+                    <li>Stylist </li>
+                    <li>Succession and Exit Planning </li>
+                    <li>Surveyor </li>
+                    <li>Swimming Coach </li>
+                    <li>Tailor </li>
+                    <li>Tattoo Artist </li>
+                    <li>Taxi Driver </li>
+                    <li>Teacher </li>
+                    <li>Teaching Assistant </li>
+                    <li>Technician </li>
+                    <li>Telecommunications </li>
+                    <li>Therapist </li>
+                    <li>Tiler </li>
+                    <li>Tour Guide </li>
+                    <li>Translator </li>
+                    <li>Travel Agent </li>
+                    <li>Tutor </li>
+                    <li>TV Presenter </li>
+                    <li>Valuer </li>
+                    <li>Veterinarian </li>
+                    <li>Video Marketing </li>
+                    <li>Virtual Assistant </li>
+                    <li>Voice Coach </li>
+                    <li>Voice Over Artist </li>
+                    <li>Waiting Staff </li>
+                    <li>Waste Management </li>
+                    <li>Water Products </li>
+                    <li>Wealth Creation </li>
+                    <li>Web Designer </li>
+                    <li>Window Cleaner </li>
+                    <li>Window Glazer </li>
+                    <li>Workplace Relations </li>
+                    <li>Yoga Instructor </li> 
+                </ul><!-- end .categories -->
+            </div><!-- end .col-lg-12 -->
+        </div><!-- end .row -->
+
+        <hr>
+
+        <footer>
+            <p>Created by Freddie Lore &copy; 2019. <span class="pull-right"><a href="/cdn-cgi/l/email-protection#e385918687878a868f8c9186dbdaa3848e828a8fcd808c8e" target="_blank" title="Email Freddie">Report a bug</a> | <a href="/cdn-cgi/l/email-protection#95f3e7f0f1f1fcf0f9fae7f0adacd5f2f8f4fcf9bbf6faf8" target="_blank" title="Email Freddie for suggestion">Send suggestion</a></p>
+        </footer>
+    </div> <!-- /container -->        
+    
+    <script src="js/main.min.js"></script>
+
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33237811-1']);
+      _gaq.push(['_setDomainName', 'freddielore.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+    
+    </body>
+</html>
